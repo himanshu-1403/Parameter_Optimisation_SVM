@@ -38,7 +38,7 @@
 3- Boxplot shows that the "Bombay" & "Horoz" classes are distinct from other classes and that there are some minimal outliers in some features.\
 4- The Pearson linear correlation shows that there are lots of highly correlated features.
  
- | Sample Number | Best Accuracy | Kernel | C  | gamma |
+ | Sample Number | Best Accuracy | Kernel | Nu  | Epsilon |
 |----------|---------------|--------|-----|-------|
 | 1        | 0.799       | rbf    | 1.000 | 0.001   |
 | 2        | 0.765        |  poly    | 0.001 | scale   |
@@ -53,7 +53,7 @@
 
 ---
 
-**Sample 5 gives the Best SVM accuracy with params: rbf,1.000,0.1 for Kernel,C and Gamma respectively**
+**Sample 5 gives the Best SVM accuracy with params: rbf,1.000,0.1 for Kernel,Nu and Epsilon respectively**
 
 ---
 
