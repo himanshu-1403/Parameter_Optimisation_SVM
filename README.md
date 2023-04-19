@@ -1,6 +1,16 @@
 # Parameter-Optimisation-SVM
 
 
+## EDA for Dataset
+- Exploring the dataset, getting summary statistics and checking for null values and duplicates and there weren't any.
+- Graphical representations:\
+1- Count plot the labels column show the distribution of all classes that showed a slight imbalance but it doesn't affect and no need to handle.\
+2- Histogram of numerical features, some distributions have long tails, skewed and most are bi-modal which means that some classes are quite distinct from others.
+\
+3- Boxplot shows that the "Bombay" & "Horoz" classes are distinct from other classes and that there are some minimal outliers in some features.\
+4- The Pearson linear correlation shows that there are lots of highly correlated features.
+
+
 **Dataset Used:** [Dry bean Dataset](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset)
 
 | Number of Instances:  | 13000  |
@@ -18,6 +28,15 @@
 | gamma                 |['scale', 'auto'] + list(np.logspace(-3, 3, 7))   |
 
 ---
+
+## EDA
+- Exploring the dataset, getting summary statistics and checking for null values and duplicates and there weren't any.
+- Graphical representations:\
+1- Count plot the labels column show the distribution of all classes that showed a slight imbalance but it doesn't affect and no need to handle.\
+2- Histogram of numerical features, some distributions have long tails, skewed and most are bi-modal which means that some classes are quite distinct from others.
+\
+3- Boxplot shows that the "Bombay" & "Horoz" classes are distinct from other classes and that there are some minimal outliers in some features.\
+4- The Pearson linear correlation shows that there are lots of highly correlated features.
  
  | Sample Number | Best Accuracy | Kernel | C  | gamma |
 |----------|---------------|--------|-----|-------|
